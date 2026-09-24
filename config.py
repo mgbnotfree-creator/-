@@ -1,13 +1,14 @@
 # ==========================================================
-# Copyright (c) 2026 MGB CODER
+# Copyright (c) 2026 VelocityBots 
 # All Rights Reserved.
 #
-# Project      : Riya Music Bot
-# Powered By   : MGB CODER
+# Project      : VelocityBots API Telegram Music Bot
+# Powered By   : VelocityBots 
 # Type         : API Based Telegram Music Bot
 #
-# Bot          : @RiyaMusicBot
-# Channel      : https://t.me/MGB_CODER
+# Bot          : @JunoXmusic_Robot
+# Channel      : https://t.me/junoxmusic_updates
+# GitHub       : https://github.com/bishalkumarsahh-eng
 #
 # Unauthorized copying, modification, or redistribution
 # of this source code without permission is prohibited.
@@ -42,8 +43,8 @@ class Config:
         self.SESSION3: str = getenv("STRING_SESSION3", "")
 
         # Support Links
-        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/MGB_CODER")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/MGB_CODER")
+        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/junoxmusic_updates")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/Velocity_Bingo")
 
         # Excluded Chats
         self.EXCLUDED_CHATS: List[int] = self._parse_excluded_chats()
@@ -66,11 +67,11 @@ class Config:
         # YouTube Cookies
         self.COOKIES_URL: List[str] = self._parse_cookies()
 
-        # Images (Updated with your custom image)
-        self.DEFAULT_THUMB: str = getenv("DEFAULT_THUMB", "https://graph.org/file/007501200a18fbe5b14ca-1c0adb48d248525fc8.jpg")
-        self.PING_IMG: str = getenv("PING_IMG", "https://graph.org/file/007501200a18fbe5b14ca-1c0adb48d248525fc8.jpg")
-        self.START_IMG: str = getenv("START_IMG", "https://graph.org/file/007501200a18fbe5b14ca-1c0adb48d248525fc8.jpg")
-        self.RADIO_IMG: str = getenv("RADIO_IMG", "https://graph.org/file/007501200a18fbe5b14ca-1c0adb48d248525fc8.jpg")
+        # Images
+        self.DEFAULT_THUMB: str = getenv("DEFAULT_THUMB", "https://kommodo.ai/i/jzdfbObgqRRDbEYjMctV")
+        self.PING_IMG: str = getenv("PING_IMG", "https://kommodo.ai/i/sYYB017BdEvUfN04XmGg")
+        self.START_IMG: str = getenv("START_IMG", "https://kommodo.ai/i/pJuq7zvlKTnlgeAPJL4r")
+        self.RADIO_IMG: str = getenv("RADIO_IMG", "https://kommodo.ai/i/ycPGouOVgdI2BqYebYy3")
         
         # Sticker ID for welcome message
         self.STICKER_ID: str = getenv("STICKER_ID", "CAACAgUAAxkBAAERZd9qMHDSNUAH_8ZAnU4aT97Aw5THZwACdh8AApKxgFWOSimDJoOjCjwE")
@@ -130,4 +131,3 @@ class Config:
 
 
 config = Config()
-    
