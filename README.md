@@ -1,8 +1,8 @@
 <div align="center"> 
 
-<img src="https://graph.org/file/007501200a18fbe5b14ca-1c0adb48d248525fc8.jpg" width="400">
+https://github.com/user-attachments/assets/9242e981-ae02-4e0d-b07d-efb8abf50db8
 
-# 🎵 ZOYA MUSIC BOT 
+# 🎶 Ⓥϻɪꜱꜱ →ｚᴏʏᴀ⸙
 
 ### Advanced Telegram Voice Chat Music Bot
 
@@ -23,6 +23,8 @@
 ### 🎧 A Powerful Telegram Music Streaming Bot
 
 </div>
+
+
 
 ---
 
